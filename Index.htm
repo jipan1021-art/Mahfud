@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kalkulator">
+    <input type="text" id="hasil" disabled>
+    <div class="tombol">
+      <button class="tombol-angka" onclick="tambahAngka('7')">7</button>
+      <button class="tombol-angka" onclick="tambahAngka('8')">8</button>
+      <button class="tombol-angka" onclick="tambahAngka('9')">9</button>
+      <button class="tombol-operator" onclick="tambahOperator('/')">/</button>
+      <button class="tombol-angka" onclick="tambahAngka('4')">4</button>
+      <button class="tombol-angka" onclick="tambahAngka('5')">5</button>
+      <button class="tombol-angka" onclick="tambahAngka('6')">6</button>
+      <button class="tombol-operator" onclick="tambahOperator('*')">*</button>
+      <button class="tombol-angka" onclick="tambahAngka('1')">1</button>
+      <button class="tombol-angka" onclick="tambahAngka('2')">2</button>
+      <button class="tombol-angka" onclick="tambahAngka('3')">3</button>
+      <button class="tombol-operator" onclick="tambahOperator('-')">-</button>
+      <button class="tombol-angka" onclick="tambahAngka('0')">0</button>
+      <button class="tombol-operator" onclick="tambahOperator('+')">+</button>
+      <button class="tombol-hasil" onclick="hitung()">=</button>
+      <button class="tombol-hapus" onclick="hapus()">C</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
